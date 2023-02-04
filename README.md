@@ -5,7 +5,6 @@ Bot discord en Python qui permet de faire du monitoring sur différentes adresse
 ## Prérequis
 
 - Python 3
-- Socket ( ``pip install socket`` )
 - Asyncio ( ``pip install asyncio`` )
 - Pytz ( ``pip install pytz`` )
 - Ping3 ( ``pip install ping3`` )
