@@ -10,9 +10,9 @@ intents = discord.Intents(messages=True, guilds=True)
 
 @client.event
 async def on_ready():
-    tchannel = client.get_channel(ID DU SALON)
+    tchannel = client.get_channel(ID DU SALON) # <- MET L'ID DU SALON ICI A LA PLACE DE "ID DU SALON"
     await tchannel.send("Copie l'ID de ce message et met ligne 15 !")  # NE MODIF PAS
-    tmessage = await tchannel.fetch_message(ID DU MESSAGE)
+    tmessage = await tchannel.fetch_message(ID DU MESSAGE) # <- MET L'ID DU MESSAGE ICI
     hosts = [("www.google.com", 443, "Google"), ("reddit.com", 443, "Reddit"), ("188.114.97.2", 80, "Cloudflare")]
     await asyncio.ensure_future(editembed(tmessage, hosts))
 
